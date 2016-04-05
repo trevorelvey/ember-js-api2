@@ -1,5 +1,5 @@
 <ul>
   {{#each model as |committee|}}
-    <li>{{#link-to 'committee' committee_id}}{{committee.name}}<br>{{committee.chamber}}<br>{{committee.subcommittee}}<br>{{committee.committee_id}}{{/link-to}}</li>
+    <li>{{#link-to 'subcommittee' committee.committee_id}}{{committee.name}}<br>{{committee.chamber}}<br>{{committee.subcommittee}}<br>{{committee.committee_id}}{{/link-to}}</li>
   {{/each}}
 </ul>

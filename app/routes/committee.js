@@ -6,7 +6,7 @@ export default Ember.Route.extend({
 
   actions: {
   committeeLookup(params) {
-      this.transitionTo('committeelink', params.chamber, DO WE PUT ID IN HERE?);
+      this.transitionTo('committeelink', params.chamber);
     },
   }
 });
